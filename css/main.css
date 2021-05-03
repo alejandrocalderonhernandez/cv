@@ -1,0 +1,205 @@
+html {
+    height: 100%;
+}
+
+body {
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url("../img/background.jpg");
+    background-repeat: repeat;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding: 20px 0px;
+    clear: both;
+    background: #3A4850;
+}
+
+hr {
+    background-color: white;
+}
+
+@media screen and (min-width: 1080px) {
+    .main-left {
+        width: 35%;
+        float: left;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .main-right {
+        width: 65%;
+        float: right;
+        padding: 0px 20px;
+        margin: 20px 0px;
+        border-left: solid 2px #fff;
+    }
+    
+    .photo {
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+        position: absolute;
+        top: 8%;
+        left: 5%;
+    }
+}
+
+.header-section {
+    width: 100%;
+    height: 350px;
+}
+
+.header-img {
+   height: 100%;
+   width: 100%;
+}
+
+h1 {
+    color: #2c7873    ;
+}
+
+h2 {
+    color: #2c7873    ;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 1080px;
+    height: auto;
+    margin: 30px auto;
+    background: #16191B;
+    position: relative;
+}
+
+.header-section {
+    width: 100%;
+    height: 350px;
+}
+
+.about-me-info {
+    position: relative;
+    top: 150px;
+    right: 10px;
+}
+
+.progress-section {
+    width: 55%;
+    float: right;
+}
+
+.progress-bar {
+    background: #2c7873;
+}
+
+.contact-section {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.skills-section {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.timeline {
+    margin: 20px 0px;
+    border-top: solid 2px #fff;
+    position: relative;
+    float: right;
+    width: 85%;
+    margin-bottom: 35px;
+}
+
+.timeline-title{
+    text-align: right;
+    position: relative;
+    top: 35px;
+}
+
+.timeline-date{
+  text-align: right;
+}
+
+.timeline-info {
+    position: relative;
+    clear: both;
+    bottom: 50px;
+}
+
+.timeline-content {
+    position: relative;
+    bottom: 70px;
+}
+
+.timeline-content-2 {
+    position: relative;
+    bottom: 140px;
+}
+
+.timeline-content-3 {
+    position: relative;
+    bottom: 210px;
+}
+
+.timeline-content-4 {
+    position: relative;
+    bottom: 280px;
+}
+
+.timeline-content-5 {
+    position: relative;
+    bottom: 290px;
+}
+
+.hobbies-section {
+    text-align: left;
+}
+
+@media screen and (max-width: 1079px) {
+
+    h2 {
+        font-size: 70px;
+    }
+    h1 {
+        font-size: 80px;
+    }
+    p {
+        font-size: 40px;
+    }
+
+    .header-section {
+        width: 100%;
+        height: 600px;
+    }
+
+    .main-left {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .main-right {
+        padding: 0px 20px;
+        margin: 20px 0px;
+    }
+    
+    .photo {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        position: absolute;
+        top: 400px;
+        left: 35%;
+    }
+}
