@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
-    <script src="./js/main.js"></script>
+    <script type="module" src="./js/main.js"></script>
 </head>
 
 <body>
@@ -17,22 +17,23 @@
             <img class="photo" src="./img/photo.jpg" />
             <div class="about-me-info">
                 <h2>Alejandro Calderón</h2>
+                <h5 id="profile-role" class="profile-tittle">(Desarrollador Java - Angular)</h5>
                 <hr>
                 <!-- Profile profesional -->
-                <h4>Profile</h4>
-                <p>
+                <h4 id="profile-tittle">Profile</h4>
+                <p id="profile-content">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quidem laudantium rerum neque iste
                     repudiandae a molestiae accusamus tenetur voluptates dolores, ab blanditiis atque architecto! Quasi,
                     impedit. Molestias, quia reiciendis?
                 </p>
                 <hr>
                 <!-- contact -->
-                <h4>Contacto</h4>
+                <h4 id="contact-tittle">Contacto</h4>
                 <div class="contact-section">
                     <ul>
                         <li>
                             <i class="fas fa-map-marker-alt"></i>
-                            México, CDMX
+                            <span id="country">México, CDMX</span>
                         </li>
                         <br>
                         <li>
@@ -50,7 +51,7 @@
                             alejandrocalderonhernandez
                         </li>
                         <br>
-                        <li>
+                        <li class="email-font">
                             <i class="fas fa-envelope"></i>
                             alejandro_calderon95@outlook.com
                             &nbsp; &nbsp; &nbsp; alejandro_calderon95@outlook.com
@@ -178,7 +179,6 @@
                                 </div>
                             </div>
                         </li>
-
                     </li>
                     <!-- Jenkins -->
                     <li>
@@ -206,22 +206,12 @@
                 <!-- School -->
                 <div class="scholarship">
                     <hr>
-                    <h4>Escolaridad</h4> 
-                    <p><span>Cedula: </span>339020292902</p>
+                    <h4 id="scholarship-tittle">Escolaridad</h4> 
+                    <p><span id="professional-licene">Cedula: </span>339020292902</p>
                     <br>
-                    <h5>Instituto Nacional de Mexico</h5>
-                    <h6>Ingenieria en Tecnológias de la Información</h6>
-                    <p class="date-school">2013 - 2017</p>
-                    <br>
-                    <h5>Instituto Nacional de Mexico</h5>
-                    <h6>Ingenieria en Tecnológias de la Información</h6>
-               
-                        <span>Java</span>
-                        <span>Microservises</span>
-                        <span>Spring</span>
-                   
-                    <p class="date-school">2013 - 2017</p>
-                    <br>
+                    <div id="scholarship-content">
+
+                    </div>
                 </div>
                 <!-- Hobbies -->
                 <hr>
@@ -229,9 +219,9 @@
                 <br>
                 <div class="hobbies-section">
                     <ul>
-                        <li> <i class="fas fa-guitar"></i> Tocar Guitarra</li>
-                        <li> <i class="fas fa-dumbbell"></i> Gym</li>
-                        <li> <i class="fas fa-code"></i> Programar</li>
+                        <li> <i class="fas fa-guitar"></i> <span id="guitar"> Tocar Guitarra</span></li>
+                        <li> <i class="fas fa-dumbbell"></i> <span id="gym">Gym</span> </li>
+                        <li> <i class="fas fa-code"></i> <span id="code">Programar</span></li>
                     </ul>
                
                 </div>
@@ -239,21 +229,16 @@
         </div>
         <!-- Right Section -->
         <div class="main-right">
-            <!-- About me -->
-            <h2>Acerca de mi</h2>
+            <!-- Languages -->
+            <div class="languages">
+                <button class="btn btn-dark" onclick="setSpanish()">Español</button>
+                <button class="btn btn-dark" onclick="setEnglish()">Ingles</button>
+            </div>
+               <!-- About me -->
+            <br>
+            <h2 id="about-me-tittle">Acerca de mi</h2>
             <hr>
-            <p>Explora es la empresa de viajes tur&iacute;&shy;sticos l&iacute;&shy;der de Colombia con presencial en
-                varia ciudades principales.</p>
-            <p>Explora es una agencia de viajes dedicada a la promoci&oacute;n y planeaci&oacute;n del turismo nacional
-                e internacional. Nuestro principal objetivo es brindar satisfacci&oacute;n a nuestros clientes mediante
-                productos y servicios de excelente calidad. Para ello contamos con un equipo humano altamente calificado
-                y con los &uacute;ltimos avances tecnol&oacute;gicos que lanza la industria del turismo a nivel mundial.
-                Nuestro fin, marcar la diferencia: nuestros productos, servicios, y conocimientos, ayudan a personas de
-                toda la regi&oacute;n a dar forma y hacer realidad sus viajes de negocios y placer.</p>
-            <p>Deseamos infundir nuestra filosof&iacute;a y liderazgo como la empresa l&iacute;der en el mercado
-                tur&iacute;stico, en todo el territorio nacional y en el mundo. Mediante un modelo de gesti&oacute;n
-                orientado a la creaci&oacute;n permanente de valor para nuestros clientes, nuestros accionistas,
-                nuestros empleados y para el pa&iacute;s.</p>
+            <p id="about-me-content"></p>
 
             <!-- Timeline -->
             <h2>Expericencia laboral</h2>
@@ -338,9 +323,8 @@
         </div>
 
         <footer>
-            <p>Explora, la empresa de viajes tur&iacute;­sticos l&iacute;­der de Colombia</p>
-            <p>Carrera 28 No. 28-124 - Los Ciruelos - Tel&eacute;fono (571-8943256)</p>
-            <p>Bogot&aacute; - Colombia</p>
+            <p>Rene Alejandro Calderón Hernández</p>
+            <p>México, CDMX</p>
         </footer>
     </div>
 

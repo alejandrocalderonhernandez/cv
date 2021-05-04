@@ -25,9 +25,11 @@ footer {
 
 hr {
     background-color: white;
+    padding-top: 1px;
 }
 
 @media screen and (min-width: 1080px) {
+
     .main-left {
         width: 35%;
         float: left;
@@ -36,6 +38,7 @@ hr {
     }
     
     .main-right {
+    
         width: 65%;
         float: right;
         padding: 0px 20px;
@@ -51,6 +54,30 @@ hr {
         top: 8%;
         left: 5%;
     }
+
+    .skills-section {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .progress-section {
+        width: 55%;
+        float: right;
+    }
+
+    .contact-section {
+        text-align: left;
+        margin-top: 20px;
+    }
+}
+
+
+.container {
+    width: 1080px;
+    height: auto;
+    margin: 30px auto;
+    background: #16191B;
+    position: relative;
 }
 
 .header-section {
@@ -75,51 +102,28 @@ ul {
     list-style-type: none;
 }
 
-.container {
-    width: 1080px;
-    height: auto;
-    margin: 30px auto;
-    background: #16191B;
-    position: relative;
-}
-
-.header-section {
-    width: 100%;
-    height: 350px;
-}
-
 .about-me-info {
     position: relative;
     top: 150px;
     right: 10px;
 }
 
-.progress-section {
-    width: 55%;
-    float: right;
-}
-
 .progress-bar {
     background: #2c7873;
 }
 
-.contact-section {
-    text-align: left;
-    margin-top: 20px;
-}
-
-.skills-section {
-    text-align: left;
-    margin-top: 20px;
-}
-
 .timeline {
     margin: 20px 0px;
-    border-top: solid 2px #fff;
+    border-top: solid 2px #2c7873;
     position: relative;
     float: right;
     width: 85%;
     margin-bottom: 35px;
+}
+
+.profile-tittle {
+    color: #514157;
+    font-style: oblique;
 }
 
 .timeline-title{
@@ -167,16 +171,48 @@ ul {
     text-align: left;
 }
 
+.date-school {
+    font-style: oblique;
+    font-size: 15px;
+}
+
+.temary{
+    text-align: left;
+    font-size: 12px;
+}
+
 @media screen and (max-width: 1079px) {
 
     h2 {
-        font-size: 70px;
+        font-size: 100px;
     }
     h1 {
-        font-size: 80px;
+        font-size: 120px;
     }
+
+    h4 {
+        font-size: 75px;
+    }
+
+    h5 {
+        font-size: 60px;
+    }
+
+    h6 {
+        font-size: 45px;
+    }
+
     p {
-        font-size: 40px;
+        font-size: 50px;
+    }
+
+    li {
+        font-size: 50px;
+    }
+
+    hr {
+        background-color: white;
+        padding-top: 2px;
     }
 
     .header-section {
@@ -188,18 +224,63 @@ ul {
         padding: 20px;
         text-align: center;
     }
-    
+
     .main-right {
         padding: 0px 20px;
         margin: 20px 0px;
+        top: 120px;
+        position: relative;
     }
-    
+
     .photo {
         width: 350px;
         height: 350px;
         border-radius: 50%;
         position: absolute;
         top: 400px;
-        left: 35%;
+        left: 25%;
     }
+
+    .timeline {
+        margin: 20px 0px;
+        border-top: solid 5px #2c7873;
+        position: relative;
+        float: right;
+        width: 85%;
+        margin-bottom: 35px;
+    }
+
+    
+    .progress-section {
+      margin-top: 5px;
+    }
+
+    .skills-section {
+        margin-top: 5px;
+    }
+
+    .contact-section {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .email-font {
+        font-size: 40px;
+    }
+
+    .temary{
+        text-align: left;
+        font-size: 40px;
+    }
+
+    .about-me-info {
+        position: relative;
+        bottom: 250px;
+    }
+
+    .date-school {
+        font-style: oblique;
+        font-size: 45px;
+    }
+   
 }
