@@ -23,6 +23,8 @@ const setSpanish = () => {
 
     window.document.getElementById(spanish.aboutMe.tittle.id).textContent = spanish.aboutMe.tittle.value;
     window.document.getElementById(spanish.aboutMe.content.id).textContent = spanish.aboutMe.content.value;
+
+    window.document.getElementById(spanish.work.timelineId).innerHTML = buildWorkTemplateSpanish();
 }
 
 const setEnglish = () => {
@@ -44,24 +46,51 @@ const setEnglish = () => {
     window.document.getElementById(english.aboutMe.tittle.id).textContent = english.aboutMe.tittle.value;
     window.document.getElementById(english.aboutMe.content.id).textContent = english.aboutMe.content.value;
 
-
+    window.document.getElementById(english.work.timelineId).innerHTML = buildWorkTemplateEnglish();
 }
 
 const buildSchoolTemplateSpanish = () => {
     let html = '';
     spanish.schlolarship.schoolInfo.forEach(s => {
         html += `<h5>${s.name}</h5> <h6>${s.tittle}</h6> <p>${s.date}</p> <br>`
-    })
+    });
     return html
 }
 
 const buildSchoolTemplateEnglish = () => {
     let html = '';
     english.schlolarship.schoolInfo.forEach(s => {
-        html += `<h5>${s.name}</h5> <h6>${s.tittle}</h6> <p>${s.date}</p> <br>`
-    })
+        html += `<h5>${s.name}</h5> <h6>${s.tittle}</h6> <p class="date-school">${s.date}</p> <br>`
+    });
     return html
 }
+
+const buildWorkTemplateSpanish = () => {
+    let html = '';
+    spanish.work.timeline.forEach(s => {
+        html += `<p class="timeline-title">${s.tittle}</p>
+        <div class="timeline"> 
+        <p class="timeline-date">${s.date}</p>
+        </div> <div class="timeline-info"> 
+        <p> ${s.description} </p> </div>`
+    });
+    return html;
+}
+
+
+const buildWorkTemplateEnglish = () => {
+    let html = '';
+    spanish.work.timeline.forEach(s => {
+        html += `<p class="timeline-title">${s.tittle}</p>
+        <div class="timeline"> 
+        <p class="timeline-date">${s.date}</p>
+        </div> <div class="timeline-info"> 
+        <p> ${s.description} </p> </div>`
+    });
+
+    return html;
+}
+
 window.setSpanish = setSpanish;
 window.setEnglish = setEnglish;
 

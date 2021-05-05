@@ -9,9 +9,8 @@ body {
     color: #fff;
     margin: 0;
     padding: 0;
-    height: 100%;
-    background-image: url("../img/background.jpg");
-    background-repeat: repeat;
+    height: auto;
+    background-color: #2e3131;
 }
 
 footer {
@@ -29,21 +28,23 @@ hr {
 }
 
 @media screen and (min-width: 1080px) {
-
     .main-left {
         width: 35%;
         float: left;
         padding: 20px;
         text-align: center;
+        position: relative;
+        top: 10px;
     }
     
     .main-right {
-    
         width: 65%;
         float: right;
         padding: 0px 20px;
         margin: 20px 0px;
         border-left: solid 2px #fff;
+        position: relative;
+        
     }
     
     .photo {
@@ -51,7 +52,7 @@ hr {
         height: 280px;
         border-radius: 50%;
         position: absolute;
-        top: 8%;
+        top: 9%;
         left: 5%;
     }
 
@@ -118,11 +119,11 @@ ul {
     position: relative;
     float: right;
     width: 85%;
-    margin-bottom: 35px;
+
 }
 
 .profile-tittle {
-    color: #514157;
+    color: #846ea1;
     font-style: oblique;
 }
 
@@ -139,32 +140,12 @@ ul {
 .timeline-info {
     position: relative;
     clear: both;
-    bottom: 50px;
+    bottom: 30px;
 }
 
 .timeline-content {
     position: relative;
-    bottom: 70px;
-}
-
-.timeline-content-2 {
-    position: relative;
-    bottom: 140px;
-}
-
-.timeline-content-3 {
-    position: relative;
-    bottom: 210px;
-}
-
-.timeline-content-4 {
-    position: relative;
-    bottom: 280px;
-}
-
-.timeline-content-5 {
-    position: relative;
-    bottom: 290px;
+   
 }
 
 .hobbies-section {
@@ -182,7 +163,6 @@ ul {
 }
 
 @media screen and (max-width: 1079px) {
-
     h2 {
         font-size: 100px;
     }
