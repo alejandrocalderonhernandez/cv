@@ -1,10 +1,5 @@
 import {spanish, english} from './languages.js'
 
-window.document.addEventListener("DOMContentLoaded", () => {
-    alert('init');
-
-});
-
 const setSpanish = () => {
     window.document.getElementById(spanish.profile.rol.id).textContent = spanish.profile.rol.value;
     window.document.getElementById(spanish.profile.tittle.id).textContent = spanish.profile.tittle.value;
@@ -12,6 +7,7 @@ const setSpanish = () => {
 
     window.document.getElementById(spanish.languaje.contact.id).textContent = spanish.languaje.contact.value;
     window.document.getElementById(spanish.languaje.country.id).textContent = spanish.languaje.country.value;
+    window.document.getElementById(spanish.languaje.id).textContent = spanish.languaje.value;
 
     window.document.getElementById(spanish.schlolarship.tittle.id).textContent = spanish.schlolarship.tittle.value;
     window.document.getElementById(spanish.schlolarship.licence.id).textContent = spanish.schlolarship.licence.value;
@@ -34,6 +30,7 @@ const setEnglish = () => {
 
     window.document.getElementById(english.languaje.contact.id).textContent = english.languaje.contact.value;
     window.document.getElementById(english.languaje.country.id).textContent = english.languaje.country.value;
+    window.document.getElementById(english.languaje.id).textContent = english.languaje.value;
 
     window.document.getElementById(english.schlolarship.tittle.id).textContent = english.schlolarship.tittle.value;
     window.document.getElementById(english.schlolarship.licence.id).textContent = english.schlolarship.licence.value;
@@ -52,7 +49,7 @@ const setEnglish = () => {
 const buildSchoolTemplateSpanish = () => {
     let html = '';
     spanish.schlolarship.schoolInfo.forEach(s => {
-        html += `<h5>${s.name}</h5> <h6>${s.tittle}</h6> <p>${s.date}</p> <br>`
+        html += `<h5>${s.name}</h5> <h6>${s.tittle}</h6> <p class="date-school">${s.date}</p> <br>`
     });
     return html
 }
@@ -68,7 +65,7 @@ const buildSchoolTemplateEnglish = () => {
 const buildWorkTemplateSpanish = () => {
     let html = '';
     spanish.work.timeline.forEach(s => {
-        html += `<p class="timeline-title">${s.tittle}</p>
+        html += `<p class="timeline-tittle">${s.tittle}</p>
         <div class="timeline"> 
         <p class="timeline-date">${s.date}</p>
         </div> <div class="timeline-info"> 
@@ -80,8 +77,8 @@ const buildWorkTemplateSpanish = () => {
 
 const buildWorkTemplateEnglish = () => {
     let html = '';
-    spanish.work.timeline.forEach(s => {
-        html += `<p class="timeline-title">${s.tittle}</p>
+    english.work.timeline.forEach(s => {
+        html += `<p class="timeline-tittle">${s.tittle}</p>
         <div class="timeline"> 
         <p class="timeline-date">${s.date}</p>
         </div> <div class="timeline-info"> 

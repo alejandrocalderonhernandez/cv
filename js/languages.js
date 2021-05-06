@@ -15,6 +15,8 @@ export class spanish {
     }
 
     static languaje = {
+        id:'language',
+        value: 'Selecciona un lenguaje',
         contact: {
             id: 'contact-tittle',
             value:'Contacto'
@@ -132,6 +134,8 @@ export class english {
     }
 
     static languaje = {
+        id:'language',
+        value: 'Select a language',
         contact: {
             id: 'contact-tittle',
             value:'Contact'
