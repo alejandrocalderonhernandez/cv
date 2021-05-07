@@ -6,7 +6,7 @@ export class spanish {
         },
         tittle: {
             id: 'profile-tittle',
-            value: 'Perfil profecional'
+            value: 'Perfil profesional'
         },
         content: {
             id: 'profile-content',
@@ -125,7 +125,7 @@ export class english {
         },
         tittle: {
             id: 'profile-tittle',
-            value: 'Profecional profile'
+            value: 'Professional profile'
         },
         content: {
             id: 'profile-content',
