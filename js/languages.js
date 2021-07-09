@@ -14,6 +14,11 @@ export class spanish {
         }  
     }
 
+    static experience = {
+        id:'work-experience',
+        value: 'Experiencia laboral'
+    }
+
     static languaje = {
         id:'language',
         value: 'Selecciona un lenguaje',
@@ -103,8 +108,8 @@ export class spanish {
             }, 
             {
                 tittle:'Citibanamex',
-                date: '01/2021-actual',
-                description:'En esta empresa fui contratado para el desarrollo de MICROSERVICIOS, pero por razones agenas termine en un equipo de mantenimiento y desarrollo en sistemas LEGACY como ANGULARJS, BACKBASE y APACHE CAMEL los cuales no van de acuerdo a mi perfil, pero de igual manera es importante mencionarlo.'
+                date: '01/2021-07/2021',
+                description:'Desarrollo y mantenimiento de microservicios usando java 8 y spring cloud. Ayuda a desarrollo de pantallas desarrolladas en Angular. Mantenimiento a sistema middleware(monolítico) usando java 8 y spring boot.'
             }, 
             {
                 tittle:'Proyecto personal',
@@ -131,6 +136,11 @@ export class english {
             id: 'profile-content',
             value: 'Implement solutions to trivial or complex problems through the use of information technologies through the use of quality algorithms, design patterns, SOLID principles, use of libraries and frameworks as well as testing them to guarantee their correct operation.'
         }
+    }
+
+    static experience = {
+        id:'work-experience',
+        value: 'Work experience'
     }
 
     static languaje = {
@@ -222,8 +232,8 @@ export class english {
             }, 
             {
                 tittle:'Citibanamex',
-                date: '01/2021-now',
-                description:'In this company I was hired for the development of MICROSERVICIOS, but for serious reasons I ended up in a maintenance and development team in LEGACY systems such as ANGULARJS, BACKBASE and APACHE CAMEL which do not match my profile, but it is also important to mention it.'
+                date: '01/2021-07/2021',
+                description:'Development and maintenance of microservices using java 8 and spring cloud. Help with the development of screens developed in Angular. Maintenance to middleware system (monolithic) using java 8 and spring boot.'
             }, 
             {
                 tittle:'Personal project',

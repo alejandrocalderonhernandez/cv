@@ -5,6 +5,8 @@ const setSpanish = () => {
     window.document.getElementById(spanish.profile.tittle.id).textContent = spanish.profile.tittle.value;
     window.document.getElementById(spanish.profile.content.id).textContent = spanish.profile.content.value;
 
+    window.document.getElementById(spanish.experience.id).textContent = spanish.experience.value;
+    
     window.document.getElementById(spanish.languaje.contact.id).textContent = spanish.languaje.contact.value;
     window.document.getElementById(spanish.languaje.country.id).textContent = spanish.languaje.country.value;
     window.document.getElementById(spanish.languaje.id).textContent = spanish.languaje.value;
@@ -28,6 +30,9 @@ const setEnglish = () => {
     window.document.getElementById(english.profile.tittle.id).textContent = english.profile.tittle.value;
     window.document.getElementById(english.profile.content.id).textContent = english.profile.content.value;
 
+    window.document.getElementById(english.experience.id).textContent = english.experience.value;
+
+    
     window.document.getElementById(english.languaje.contact.id).textContent = english.languaje.contact.value;
     window.document.getElementById(english.languaje.country.id).textContent = english.languaje.country.value;
     window.document.getElementById(english.languaje.id).textContent = english.languaje.value;
