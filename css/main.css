@@ -32,6 +32,12 @@ hr {
     padding-top: 1px;
 }
 
+.print-section {
+    padding: 5% 50px;
+        
+}
+
+
 @media screen and (min-width: 1080px) {
     .main-left {
         width: 35%;
@@ -74,6 +80,13 @@ hr {
     .contact-section {
         text-align: left;
         margin-top: 20px;
+    }
+
+    .print-button {
+        position: relative;
+        font-size: 25px;
+        bottom: 50px;
+        left: 68%;
     }
 }
 
@@ -288,9 +301,15 @@ ul {
         padding: 5% 100px;
         font-size: 30px;
     }
+
+    .print-button {
+        position: absolute;
+        z-index: -5;    }
+
 }
 
 @media print {
+
     html {
         height: 100%;
     }
@@ -374,4 +393,10 @@ ul {
     #language {
         font-size: 0px;
     }
+
+    .print-button {
+        position: absolute;
+        margin-left: 1000px;
+    }
+
 }

@@ -51,6 +51,10 @@ const setEnglish = () => {
     window.document.getElementById(english.work.timelineId).innerHTML = buildWorkTemplateEnglish();
 }
 
+const openPrint = () => {
+    window.print()
+}
+
 const buildSchoolTemplateSpanish = () => {
     let html = '';
     spanish.schlolarship.schoolInfo.forEach(s => {
@@ -95,4 +99,5 @@ const buildWorkTemplateEnglish = () => {
 
 window.setSpanish = setSpanish;
 window.setEnglish = setEnglish;
+window.openPrint = openPrint;
 

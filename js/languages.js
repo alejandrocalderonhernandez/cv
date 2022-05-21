@@ -80,7 +80,7 @@ export class spanish {
         },
         content: {
             id: 'about-me-content',
-            value: 'Me llamo Alejandro soy desarrollador de aplicaciones web y apasionado por las nuevas tecnologías. Mi experiencia como desarrollador es principalmente con lenguajes compilados en la JVM principalmente Java 7, 8 y 11 y otros lenguajes como Groovy y Scala del lado del Backend y Typescript y Angular 2+ del lado del frontend, tengo experiencia en bases de datos SQL y noSQL y en cloud computing con AWS todo lo anterior lo he trabajado bajo metodologías ágiles y cultura devops, mi interes es laborar en una empresa que me brinde la posibilidad de crecer profesionalmente. Te invito a revisar algunos proyectos que tengo en mi github el cual podras encontrar en la seccion de contacto.'
+            value: 'Me llamo Alejandro soy desarrollador de aplicaciones web y apasionado por las nuevas tecnologías. Mi experiencia como desarrollador es principalmente con lenguajes compilados en la JVM principalmente Java 7, 8 y 11 y otros lenguajes como Kotlin y Scala del lado del Backend y Typescript y Angular 2+ del lado del frontend, tengo experiencia en bases de datos SQL y noSQL y en cloud computing con AWS todo lo anterior lo he trabajado bajo metodologías ágiles y cultura devops, mi interes es laborar en una empresa que me brinde la posibilidad de crecer profesionalmente. Te invito a revisar algunos proyectos que tengo en mi github el cual podras encontrar en la seccion de contacto.'
         }
     }
 
@@ -110,6 +110,11 @@ export class spanish {
                 tittle:'Citibanamex',
                 date: '01/2021-07/2021',
                 description:'Desarrollo y mantenimiento de microservicios usando java 8 y spring cloud. Ayuda a desarrollo de pantallas desarrolladas en Angular. Mantenimiento a sistema middleware(monolítico) usando java 8 y spring boot.'
+            }, 
+            {
+                tittle:'Rappi',
+                date: '01/2021-07/2021',
+                description:'¿Alguna ves has usado la app de Rappi? Bien durante mi estadía aquí estuve trabajando en la vertical de restaurantes de la app de usuario (toda la parte que tiene que ver con tiendas, pedidos y productos)100% enfocado en backend utilizando java y kotlin, desarrollando, manteniendo y monitoreando microservivios principalmente spring webflux. Importante mencionar La implementación de spring webflux con kotlin es particularmente especial ya que con java utilizamos project reactor y con cotlin se utliza una tecnolgía propia de Kotlin llamda coroutines similar a threads pero con mas eficientes, de todos los microservicios un 80% fueron desarrollados con kotlin y el otro 20% con java, las tecnologías a destacar son POSTGRESQL, REDIS, KAFKA, DOCKER, JENKINS, SONARCUBE, DOCUMENTDB, J2DBC SIGNALFX SPRING WEBFLUX un poco de GO entre otras, también me gustaría mencionar la implementación de patrones de microservicios como circuit breaker, saga, CQRS, etc... tambiém entre mis actividades estaba dar soporte, revisar pull request y proponer mejoras a la implementación. También es importante mencionar que era un equipo de trabajo mulicultural.'
             }, 
             {
                 tittle:'Proyecto personal',
@@ -204,7 +209,7 @@ export class english {
         },
         content: {
             id: 'about-me-content',
-            value: 'My name is Alejandro, I am a web application developer and passionate about new technologies. My experience as a developer is mainly with languages compiled in the JVM mainly Java 7, 8 and 11 and other languages such as Groovy and Scala on the Backend side and Typescript and Angular 2+ on the frontend side, I have experience in SQL and noSQL databases and in cloud computing with AWS I have worked all of the above under agile methodologies and devops culture, my interest is to work in a company that gives me the opportunity to grow professionally. I invite you to review some projects that I have on my github which you can find in the contact section.'
+            value: 'My name is Alejandro, I am a web application developer and passionate about new technologies. My experience as a developer is mainly with languages compiled in the JVM mainly Java 7, 8 and 11 and other languages such as Kotlin and Scala on the Backend side and Typescript and Angular 2+ on the frontend side, I have experience in SQL and noSQL databases and in cloud computing with AWS I have worked all of the above under agile methodologies and devops culture, my interest is to work in a company that gives me the opportunity to grow professionally. I invite you to review some projects that I have on my github which you can find in the contact section.'
         }
     }
 
@@ -236,10 +241,15 @@ export class english {
                 description:'Development and maintenance of microservices using java 8 and spring cloud. Help with the development of screens developed in Angular. Maintenance to middleware system (monolithic) using java 8 and spring boot.'
             }, 
             {
+                tittle:'Rappi',
+                date: '06/2021-current',
+                description:'Well, during my stay here I was working on the restaurant vertical of the user app (all the part that has to do with stores, orders and products) 100% focused on backend using java and kotlin, developing, maintaining and monitoring microservices mainly spring webflux. Important to mention The implementation of spring webflux with kotlin is particularly special since with java we use project reactor and with cotlin we use a proprietary Kotlin technology called coroutines similar to threads but with more efficiency, 80% of all microservices were developed with kotlin and the other 20% with java, the technologies to highlight are POSTGRESQL, REDIS, KAFKA, DOCKER, JENKINS, SONARCUBE, DOCUMENTDB, J2DBC SIGNALFX SPRING WEBFLUX a bit of GO among others, I would also like to mention the implementation of microservice patterns such as circuit breaker, saga, CQRS, etc... also among my activities was giving support, reviewing pull request and proposing improvements to the implementation. It is also important to mention that it was a multicultural work team.'
+            },
+            {
                 tittle:'Personal project',
                 date: 'Free time',
                 description:'Part of my free time I have found myself developing together with a couple of colleagues a transport logistics management system, the system has a 100% microservices architecture and it is implemented under the SPRING CLOUD ecosystem, in the frontend part it is implemented with ANGULAR 9 and as an infrastructure a cloud native architecture is planned in AWS, The most important activities I have had have been: Design of the relational database. Micro-services architecture design proposal. OAUTH2 Authentication Implementation. Angular screen design proposal. APACHE KAFKA test implementation.'
-            }, 
+            }
         ]
     }
 }
