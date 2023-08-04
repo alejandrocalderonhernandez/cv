@@ -113,9 +113,14 @@ export class spanish {
             }, 
             {
                 tittle:'Rappi',
-                date: '01/2021-07/2021',
+                date: '01/2021-07/2022',
                 description:'¿Alguna ves has usado la app de Rappi? Bien durante mi estadía aquí estuve trabajando en la vertical de restaurantes de la app de usuario (toda la parte que tiene que ver con tiendas, pedidos y productos)100% enfocado en backend utilizando java y kotlin, desarrollando, manteniendo y monitoreando microservivios principalmente spring webflux. Importante mencionar La implementación de spring webflux con kotlin es particularmente especial ya que con java utilizamos project reactor y con cotlin se utliza una tecnolgía propia de Kotlin llamda coroutines similar a threads pero con mas eficientes, de todos los microservicios un 80% fueron desarrollados con kotlin y el otro 20% con java, las tecnologías a destacar son POSTGRESQL, REDIS, KAFKA, DOCKER, JENKINS, SONARCUBE, DOCUMENTDB, J2DBC SIGNALFX SPRING WEBFLUX un poco de GO entre otras, también me gustaría mencionar la implementación de patrones de microservicios como circuit breaker, saga, CQRS, etc... tambiém entre mis actividades estaba dar soporte, revisar pull request y proponer mejoras a la implementación. También es importante mencionar que era un equipo de trabajo mulicultural.'
             }, 
+            {
+                tittle: 'Despegar.com',
+                date: '07/2022-actual',
+                description: 'Desarrollo de sistema  middleware para mappeeo Objetos de negocio de todos los proveedores, servicios internos y externos ,se recolectaba información mediante restful (Mejora propuesta message brokers para servicios internos) para dicho mappeeo, tencnologias Java 11 y Spring 5 el reto en este trabajo no fueron las tecnologias si no la lógica de negocio ya que entre terminología, impuestos de cada país, el mundial Qatar, divisas de países, convenios con hoteles, vuelos, tours, agencias de viajes y parques de entretenimiento la logica un tanto complicada. Cada desarrollo se hacía con altos estándares de código aplicando clean code, principios SOLID y patrones de diseño con sus respectivos unit test'
+            },
             {
                 tittle:'Proyecto personal',
                 date: 'Tiempo libre',
@@ -244,6 +249,11 @@ export class english {
                 tittle:'Rappi',
                 date: '06/2021-current',
                 description:'Well, during my stay here I was working on the restaurant vertical of the user app (all the part that has to do with stores, orders and products) 100% focused on backend using java and kotlin, developing, maintaining and monitoring microservices mainly spring webflux. Important to mention The implementation of spring webflux with kotlin is particularly special since with java we use project reactor and with cotlin we use a proprietary Kotlin technology called coroutines similar to threads but with more efficiency, 80% of all microservices were developed with kotlin and the other 20% with java, the technologies to highlight are POSTGRESQL, REDIS, KAFKA, DOCKER, JENKINS, SONARCUBE, DOCUMENTDB, J2DBC SIGNALFX SPRING WEBFLUX a bit of GO among others, I would also like to mention the implementation of microservice patterns such as circuit breaker, saga, CQRS, etc... also among my activities was giving support, reviewing pull request and proposing improvements to the implementation. It is also important to mention that it was a multicultural work team.'
+            },
+            {
+                tittle: 'Despegar.com',
+                date: '07/2022-actual',
+                description:'Development of a middleware system for mapping business objects from all providers, internal and external services, information was collected through restful (Proposed improvement message brokers for internal services) for said mapping, Java 11 and Spring 5 technologies, the challenge in this work were not the technologies if not the business logic since between terminology, taxes of each country, the Qatar world cup, country currencies, agreements with hotels, flights, tours, travel agencies and entertainment parks the logic is somewhat complicated. Each development was done with high code standards applying clean code, SOLID principles and design patterns with their respective unit tests.'
             },
             {
                 tittle:'Personal project',

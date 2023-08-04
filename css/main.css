@@ -92,7 +92,7 @@ hr {
 
 
 .container {
-    width: 1080px;
+    width: 1280;
     height: auto;
     margin: 30px auto;
     background: #16191B;
@@ -118,7 +118,7 @@ ul {
 
 .about-me-info {
     position: relative;
-    top: 150px;
+    top: 160;
     right: 10px;
 }
 
@@ -127,7 +127,6 @@ ul {
 }
 
 .timeline {
-    margin: 20px 0px;
     border-top: solid 2px #2c7873;
     position: relative;
     float: right;
@@ -143,17 +142,19 @@ ul {
 .timeline-tittle{
     text-align: right;
     position: relative;
-    top: 35px;
+    top: 17px;
+
 }
 
 .timeline-date{
   text-align: right;
+  top: 35px;
 }
 
 .timeline-info {
     position: relative;
     clear: both;
-    bottom: 30px;
+ 
 }
 
 .timeline-content {
@@ -335,6 +336,13 @@ ul {
         margin: 30px auto;
         background: #fff;
         position: relative;
+    }
+
+
+    .about-me-info {
+        position: relative;
+        top: 180;
+        right: 10px;
     }
 
     .header-section {
