@@ -73,6 +73,10 @@ export class spanish {
         }
     }
 
+    static myCourses = {
+        title: ''
+    }
+
     static aboutMe = {
         tittle: {
             id: 'about-me-tittle',
@@ -118,13 +122,13 @@ export class spanish {
             }, 
             {
                 tittle: 'Despegar.com',
-                date: '07/2022-actual',
+                date: '07/2022-08/2023',
                 description: 'Desarrollo de sistema  middleware para mappeeo Objetos de negocio de todos los proveedores, servicios internos y externos ,se recolectaba información mediante restful (Mejora propuesta message brokers para servicios internos) para dicho mappeeo, tencnologias Java 11 y Spring 5 el reto en este trabajo no fueron las tecnologias si no la lógica de negocio ya que entre terminología, impuestos de cada país, el mundial Qatar, divisas de países, convenios con hoteles, vuelos, tours, agencias de viajes y parques de entretenimiento la logica un tanto complicada. Cada desarrollo se hacía con altos estándares de código aplicando clean code, principios SOLID y patrones de diseño con sus respectivos unit test'
             },
             {
                 tittle:'Proyecto personal',
                 date: 'Tiempo libre',
-                description:'Parte de mi tiempo libre me he encontrado desarrollando junto a un par de colegas un sistema de gestión logística se transporte, el sistema tiene una arquitectura 100% de microservicios y etsa implementada bajo el ecosistema de SPRING CLOUD, en la parte del frontend esta impementanda con ANGULAR 9 y como infrestrctura se planea una arquitectura cloud native en AWS, Las actividades mas importantes que he tenido han sido: Diseño de la base de datos relacional. Propuesta de diseño arquitectura de microservios. Implementación de Autentificación OAUTH2. Propuesta de diseño de pantallas  en angular. Implementación de prueba de APACHE KAFKA.'
+                description:'En mi tiempo libre imparto cursos de programación en Udemy y Youtube'
             }, 
         ]
     }
@@ -252,13 +256,13 @@ export class english {
             },
             {
                 tittle: 'Despegar.com',
-                date: '07/2022-actual',
+                date: '07/2022-08/2023',
                 description:'Development of a middleware system for mapping business objects from all providers, internal and external services, information was collected through restful (Proposed improvement message brokers for internal services) for said mapping, Java 11 and Spring 5 technologies, the challenge in this work were not the technologies if not the business logic since between terminology, taxes of each country, the Qatar world cup, country currencies, agreements with hotels, flights, tours, travel agencies and entertainment parks the logic is somewhat complicated. Each development was done with high code standards applying clean code, SOLID principles and design patterns with their respective unit tests.'
             },
             {
                 tittle:'Personal project',
                 date: 'Free time',
-                description:'Part of my free time I have found myself developing together with a couple of colleagues a transport logistics management system, the system has a 100% microservices architecture and it is implemented under the SPRING CLOUD ecosystem, in the frontend part it is implemented with ANGULAR 9 and as an infrastructure a cloud native architecture is planned in AWS, The most important activities I have had have been: Design of the relational database. Micro-services architecture design proposal. OAUTH2 Authentication Implementation. Angular screen design proposal. APACHE KAFKA test implementation.'
+                description:'In my free time I teach programming courses on Udemy and Youtube.'
             }
         ]
     }
