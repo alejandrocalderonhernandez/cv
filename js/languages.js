@@ -147,7 +147,7 @@ export class spanish {
             }, 
             {
                 tittle:'Equifax',
-                date: '12/2019-01/2021',
+                date: '01/2019-01/2021',
                 description: 'Durante mi estancia aquí me encontré desarrollando en diversas tecnologías: Refactorización de código y dependencias siguiendo los estándares de OWASP y atendiendo vulnerabilidades de un escaner de codigo FORTIFY y SONARCUBE. Implementación de procesos batch utilizando: JAVA 8, JDBC, JPA, SPRING BOOT, APACHE SPARK, SPRING AOP, AWS(S3, EMR, SQS) SPOCK, GROOVY. Creacion y mantenimiento a microservicios usando: JAVA 8, SPRING BOOT, SPRING CLOUD, SPRING JPA, SPRING OAUTH SECURITY, SPRING TEST, JUNIT, MOCKITO, LOMBOK, AWS, POSTGRESQL, DYNAMODB. Creación de pantallas  del lado del front con . ANGULAR 7, SASS, HTML5, JWT, CHARTJS, JASMIN .Migración de consultas ORACLE  a POSTGRESQL para los sistemas implementados con JDBC. Todo lo anterior utilizando la metodología SCRUM, Integración continua con JENKINS y Testeo continuó. Como skills adquiridos aquí principalmente fue el conocimiento de un panorama general de todo el ciclo de desarrollo del software al realizar tareas end to end tuve la oportunidad de entender como es toda la integración entre diferentes sistemas, como ayuda DEVOPS a la calidad y mejora en tiempos de implementación, también a conocer que es la arquitectura de microservicios y su ventaja sobre aplicaciones monolíticas.'
             }, 
             {
