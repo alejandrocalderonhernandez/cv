@@ -63,7 +63,7 @@ hr {
         height: 280px;
         border-radius: 50%;
         position: absolute;
-        top: 12%;
+        top: 9%;
         left: 5%;
     }
 
@@ -84,9 +84,9 @@ hr {
 
     .print-button {
         position: relative;
-        font-size: 25px;
+        font-size: 20px;
         bottom: 50px;
-        left: 68%;
+        left: 64%;
     }
 }
 
@@ -118,7 +118,7 @@ ul {
 
 .about-me-info {
     position: relative;
-    top: 160;
+    top: 120;
     right: 10px;
 }
 
@@ -131,7 +131,6 @@ ul {
     position: relative;
     float: right;
     width: 85%;
-
 }
 
 .profile-tittle {
@@ -154,6 +153,21 @@ ul {
 .timeline-info {
     position: relative;
     clear: both;
+ 
+}
+
+.about-title {
+    text-align: left;
+    position: relative;
+    font-size: large;
+    font-style: italic;
+    color: #846ea1;
+}
+
+.timeline-about {
+    position: relative;
+    clear: both;
+    margin-right: 10%;
  
 }
 
@@ -265,6 +279,15 @@ ul {
         margin-bottom: 35px;
     }
 
+    .about-title {
+        text-align: left;
+        position: relative;
+        font-size: large;
+        font-style: italic;
+        color: #846ea1;
+        font-size: 77;
+    }
+    
     
     .progress-section {
       margin-top: 5px;
@@ -305,7 +328,8 @@ ul {
 
     .print-button {
         position: absolute;
-        z-index: -5;    }
+        z-index: -5;
+     }
 
 }
 

@@ -113,6 +113,15 @@
                                 </div>
                             </div>
                         </li>
+                        <!-- Kafka -->
+                        <li>
+                            <i class="fas fa-feather"></i> Kafka
+                            <div class="progress-section">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar" style="width: 60%"></div>
+                                </div>
+                            </div>
+                        </li>
                         <!-- AWS -->
                         <li>
                             <i class="fab fa-aws"></i> AWS
@@ -259,6 +268,7 @@
                         <li> <i class="fas fa-guitar"></i> <span id="guitar"> Tocar Guitarra</span></li>
                         <li> <i class="fas fa-dumbbell"></i> <span id="gym">Gym</span> </li>
                         <li> <i class="fas fa-laptop-code"></i> <span id="code">Programar</span></li>
+                        <li> <i class="fas fa-edit"></i> <span id="teach">Dar clases en Udemy y Youtube</span></li>
                     </ul>
                 <br>
                 </div>
@@ -267,20 +277,27 @@
                 <h4>Cursos que imparto en Udemy</h4>
                 <br>
                 <div class="udemy-section">
-                        <button class="btn btn-dark btn-lg btn-block" onclick="setSpanish()">
+                        <button class="btn btn-dark btn-lg btn-block">
                             <a href="https://www.udemy.com/course/spring-boot-3-y-spring-framework-6-2023">Spring framework 6
                                 <br> y Spring boot 3
                             </a>
                         </button>
-                        <button class="btn btn-dark btn-lg btn-block" onclick="setEnglish()">
+                        <button class="btn btn-dark btn-lg btn-block">
                             <a href="https://www.udemy.com/course/spring-security-6-desde-las-bases-hasta-oauth2-y-jwt/">Spring security 6</a>
                         </button>
-                        <button class="btn btn-dark btn-lg btn-block" onclick="setSpanish()">
+                        <button class="btn btn-dark btn-lg btn-block">
                             <a href="https://www.udemy.com/course/mockito-spring-boot-test-la-guia-definitiva-2023">Mockito y Spring boot test</a>
                         </button>
-                        <button class="btn btn-dark btn-lg btn-block" onclick="setEnglish()">
+                        <button class="btn btn-dark btn-lg btn-block">
                             <a href="https://www.udemy.com/course/programacion-funcional-expresiones-lambda-y-streams-en-java">Programación funcional y <br> expresiones lambda</a>
                         </button>
+                        <button class="btn btn-dark btn-lg btn-block">
+                            <a href="https://www.udemy.com/course/microservicios-con-spring-cloud-y-spring-boot/">Microservicios con <br> Spring Cloud y Spring Boot</a>
+                        </button>
+                        <button class="btn btn-dark btn-lg btn-block">
+                            <a href="https://www.udemy.com/course/aprende-las-coroutines-de-kotlin-a-profundidad/">Aprende las Corrutinas y <br> Flows de Kotlin a profundidad</a>
+                        </button>
+            
             
             
                 </div>
@@ -293,7 +310,7 @@
                 <p id="language">Selecciona un lenguaje</p>
                 <button class="btn btn-dark lang" onclick="setSpanish()">Español</button>
                 <button class="btn btn-dark lang" onclick="setEnglish()">English</button>
-                <button class="btn btn-dark print-button" onclick="openPrint()"><i class="fa fa-print"></i></button>
+                <button class="btn btn-dark print-button" onclick="openPrint()"><i class="fa fa-print"></i> Print</button>
             </div>
 
             <!-- About me -->
@@ -301,13 +318,112 @@
             <h2 id="about-me-tittle">Acerca de mi</h2>
             <hr>
             <p id="about-me-content">Me llamo Alejandro soy desarrollador de aplicaciones web y apasionado por las
-                nuevas tecnologías. Mi experiencia como desarrollador es principalmente con lenguajes compilados en la
-                JVM principalmente Java 7, 8 y 11 y otros lenguajes como Kotlin y Scala del lado del Backend y
-                Typescript y Angular 2+ del lado del frontend, tengo experiencia en bases de datos SQL y noSQL y en
-                cloud computing con AWS todo lo anterior lo he trabajado bajo metodologías ágiles y cultura devops, mi
-                interes es laborar en una empresa que me brinde la posibilidad de crecer profesionalmente. Te invito a
-                revisar algunos proyectos que tengo en mi github el cual podras encontrar en la seccion de contacto.</p>
+                nuevas tecnologías. Te invito a
+                revisar algunos proyectos que tengo en mi github el cual podras encontrar en la seccion de contacto.
+            </p>
 
+            <!-- Java experience -->
+            <p class="about-title" id="java-experience">Mi experiencia con Java</p>
+            <div class="timeline-about">
+              
+                <p id="java-content">  A lo largo de mi carrera he trabajado con diferentes proyectos y tecnologías enfocadas a Java.
+                    Principalmente a aplicaciones web con Spring framework, también podría destacar el 
+                    desarrollo de sistemas de web scrapping, generación de reportes con JasperReports y reportes en Excel 
+                    con apache poi. Las versiones de Java con las que he trabajado son 7, 8, 11 y 17 
+                    siempre haciendo uso de buenas prácticas aplicando patrones de diseño y principios solid.
+                </p>
+
+            </div>
+
+            <!-- Spring experience -->
+            <p class="about-title" id="spring-experience">Mi experiencia con Spring</p>
+            <div class="timeline-about">
+                
+                <p id="spring-content"> En la mayoría de mis proyectos he utilizado Spring en diferentes aplicaciones y diferentes 
+                    proyectos incluso con diferentes lenguajes como es Kotlin y Java, trabajé con spring 
+                    context(sin autoconfiguracion) como con Spring Boot. He integrado diferente bases de datos 
+                    relacionales, documentales y de cache con spring data, también he utilizado clientes http 
+                    reactivos(web client) y no reactivos (rest template), he integrado con spring otras tecnologías 
+                    como apache Kafka usando spring Kafka o spring cloud streams, por último he implementado spring 
+                    security y creación de test unitarios con Junit, mockito y Spring Boot test.
+                </p>
+
+            </div>
+
+            <!-- Microservices experience -->
+            <p class="about-title" id="microservices-experience">Mi experiencia con Microservicios</p>
+            <div class="timeline-about">
+                
+                <p id="microservices-content">Mi experiencia en el desarrollo de microservicios va desdé la descomposición de un monolito, diseño, mantenimiento y monitoreo. Siempre modelado con DDD Las tecnologías y herramientas herramientas qué he utilizado son:
+                    Spring cloud config server, 
+                    Spring cloud eureka server, 
+                    Spring cloud registry server, 
+                    Spring cloud gateway, 
+                    Spring cloud circuit baker, 
+                    Spring cloud openfeign, 
+                    Spring cloud streams, 
+                    Aws api gateway, 
+                    Aws SQS, 
+                    Aws lambdas, 
+                    Zipkin, 
+                    Prometheus, 
+                    Apache Kafka, 
+                    Axon , 
+                    Docker, 
+                    Algunos de los patrones que he usado son:
+                    CQRS, 
+                    SAGA, 
+                    Event sourcing, 
+                    Circuit baker, 
+                    API gateway, 
+                    Externalized Configuration, 
+                    Database per microservice, 
+                </p>
+
+            </div>
+
+            <!-- Devops experience -->
+            <p class="about-title" id="devops-experience">Mi experiencia con Devops y Cloud</p>
+            <div class="timeline-about">
+                
+                <p id="devops-content"> Quizás mi mayor experiencia en devops es con docker y git, en el área de orquestación de contenedores 
+                    tengo ligera experiencia en kubernetes.
+                    Me ha tocado consumir y muy ocasionalmente crear pipelines principalmente en jenkins y GitHub actions
+                    En el apartado de cloud computing he trabajado con el sdk de AWS, S3, EC2 y RDS y 
+                    también he trabajado con GCP principalmente con spanner db e identity platform.
+                </p>
+
+            </div>
+
+
+            <!-- API's experience -->
+            <p class="about-title" id="api-experience">Mi experiencia en desarrollo y consumo de API's</p>
+            <div class="timeline-about">
+                
+                <p id="api-content">En la mayoría de mis trabajos he consumido y c
+                    reado api RESTful. Cuando me toca diseñar un api REST contemplo las buenas prácticas del 
+                    modelo de madurez de Richardson.
+                    He manejado eventos con MSQ principalmente Kafka. 
+                    También en mis primeros trabajos llegué a consumir algunas servicios SOAP
+                </p>
+
+            </div>
+            
+            
+            <!-- Angular experience -->
+            <p class="about-title" id="angular-experience">Mi experiencia con Angular</p>
+            <div class="timeline-about">
+                
+                <p id="angular-content"> Durante un par de años estuve trabajando como full stack y trabajaba con la versión de angular 9
+                     me tocó hacer varias cosas entre ellas la creación de servicios, componentes, módulos, rutas, 
+                     plantillas html y guards.
+                </p>
+
+            </div>
+
+
+
+         
             <!-- Timeline -->
             <h2 id="work-experience">Expericencia laboral</h2>
             <hr>
@@ -315,7 +431,7 @@
 
                 <p class="timeline-tittle">Despegar.com</p>
                 <div class="timeline">
-                    <p class="timeline-date">06/2021-08/2023</p>
+                    <p class="timeline-date">07/2022-01/2024</p>
                 </div>
                 <div class="timeline-info">
                     <p>  Desarrollo de sistema  middleware para mappeeo Objetos de negocio de todos los proveedores, 
@@ -346,20 +462,9 @@
                     </p>
                 </div>
 
-                <p class="timeline-tittle">Citibanamex</p>
-                <div class="timeline">
-                    <p class="timeline-date">01/2021-06/2021</p>
-                </div>
-                <div class="timeline-info">
-                    <p> En esta empresa fui contratado para el desarrollo de MICROSERVICIOS, pero por razones agenas
-                        termine en un equipo de mantenimiento y desarrollo en sistemas LEGACY como ANGULARJS, BACKBASE y
-                        APACHE CAMEL los cuales no van de acuerdo a mi perfil, pero de igual manera es importante
-                        mencionarlo. </p>
-                </div>
-
                 <p class="timeline-tittle">Equifax</p>
                 <div class="timeline">
-                    <p class="timeline-date">12/2018-01/2021</p>
+                    <p class="timeline-date">12/2019-01/2021</p>
                 </div>
                 <div class="timeline-info">
                     <p> Durante mi estancia aquí me encontré desarrollando en diversas tecnologías: Refactorización de
